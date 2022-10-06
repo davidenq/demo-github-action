@@ -1,0 +1,22 @@
+name: "Demo Github Action"
+author: "David Nuñez <david.nunez.dev@gmail.com>"
+description: "A demo composite action just for testing purpose"
+inputs:
+  example:
+    description: "this is a input"
+    required: false
+    default: "Example value"
+  branch-name:
+    description: "the repository branch name"
+    required: true
+runs:
+  using: "composite"
+  steps:
+    - run: echo Hello ${{ inputs.example }} .
+      shell: bash
+    - run: echo Hello ${{ inputs.example }} .
+      shell: bash
+    - run: make help action
+      shell: bash
+      env:
+        BRANCH_NAME: ${{ inputs.branch-name }}
