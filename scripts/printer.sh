@@ -36,3 +36,7 @@ function command {
 function quote {
   echo -e "${PURPLE} $1 ${COLOR_OFF}"
 }
+
+function newFunction {
+  echo -e "${PURPLE} $1 ${COLOR_OFF}"
+}
