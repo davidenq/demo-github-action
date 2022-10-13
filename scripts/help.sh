@@ -21,3 +21,7 @@ function action {
   - make help action
   '
 }
+
+function HolaMundo {
+  echo 'hola'
+}
