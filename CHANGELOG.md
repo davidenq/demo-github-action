@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.2.0](https://github.com/davidenq/demo-github-action/compare/v1.1.0...v1.2.0) (2022-10-13)
+
+
+### Features
+
+* add new information ([a088cea](https://github.com/davidenq/demo-github-action/commit/a088cea8813bc7777c0c57fb9a8f9557e4779d8a))
+* cualquier cosa ([5a12aac](https://github.com/davidenq/demo-github-action/commit/5a12aacf8b4f06176bcff5f88174b079f99d78ba))
+
+
+### Bug Fixes
+
+* resolve issue ([994c225](https://github.com/davidenq/demo-github-action/commit/994c2257af123e928b7cbd72707e8ef91f09d30e))
+
 ## [1.1.0](https://github.com/davidenq/demo-github-action/compare/v1.0.0...v1.1.0) (2022-10-12)
 
 
